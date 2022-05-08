@@ -4,7 +4,7 @@ A simple card layout with React
 
 ## Installation
 
-I use [Vite](https://vitejs.dev/) and [React] (https://reactjs.org/) to build it.
+I use [Vite](https://vitejs.dev/) and [React](https://reactjs.org/) to build it.
 
 Run
 
