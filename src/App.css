@@ -1,0 +1,117 @@
+:root {
+  --color-primary: hsl(231, 12%, 12%);
+  --color-secondary:hsl(25, 79%, 78%);
+
+  --color-white-100: hsl(0, 0%, 96%);
+  --color-white-200: hsl(0, 0%, 86%);
+
+  --color-dark-900: hsl(231, 7%, 9%);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(227, 11%, 15%);
+  font-size: 14px;
+  color: var(--color-white-100);
+}
+
+h1, h2, h3, h4{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  line-height: 1;
+}
+
+h2.headline {
+  font-size: 1.2rem;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: .4125rem;
+}
+
+p.description {
+  font-family: 'Inter', sans-serif;  
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color:hsl(0, 0%, 86%)
+}
+
+.container {
+  width: min(100vw - 3rem, 1200px);
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 2rem;
+}
+
+.card {
+  background-color: var(--color-primary);
+  max-width: 20rem;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* info */
+.info {
+  text-align: center;
+}
+
+.id-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-text {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+p.website,
+p.profession {
+  margin-bottom: 0.7rem;
+}
+
+p.profession{
+  color: var(--color-secondary);
+}
+
+a.email {
+  background-color: var(--color-white-100);
+  width: 100%;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--color-dark-900);
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+a.email:hover {
+  background-color: var(--color-white-200);
+}
+
+a.email img {
+  margin-right: .5rem;
+  width: 14px;
+  max-width: 100%;
+}
+
+
+/* footer */
+.footer {
+  background-color: var(--color-dark-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* padding-left: ; */
+  gap: 1.5rem;
+}
